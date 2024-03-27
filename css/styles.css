@@ -1,0 +1,93 @@
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 500px;
+    margin-inline: auto;
+}
+main{
+    position: relative;
+    width: 1250px;
+    margin-inline: auto;
+}
+.principalTitle{
+    font-weight:lighter;
+    text-align: center;
+}
+.secondTitle{
+    text-align: center;
+}
+.descriptionTitle{
+    text-align: center;
+    color: grey;
+}
+.card{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 5px rgb(230, 227, 227);
+    padding: 10px 20px;
+}
+.cardTitle{
+    font-size: 25px;
+}
+.cardInfo{
+    color: grey;
+}
+.cardRed{
+    border-top: 5px solid #EA5454;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+.cardBlue{
+    border-top: 5px solid #549EF2;
+    position: absolute;
+    top: 150px;
+    left: 830px;
+}
+.cardGreen{
+    border-top: 5px solid #44D3D2;
+    position: absolute;
+    top:150px;
+    left: 30px;
+}
+.cardYellow{
+    border-top: 5px solid #FCAE4A;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+.imgPosition{
+    position: absolute;
+    right: 40px;
+    bottom: 40px; 
+}
+@media screen and (max-width: 1250px){
+    main{
+        position: relative;
+        width: 550px;
+        margin-inline: auto;
+    }
+    .cardRed{
+        border-top: 5px solid #EA5454;
+        margin-inline: auto;
+        margin-top: 50px;
+    }
+    .cardBlue{
+        border-top: 5px solid #549EF2;
+        position: initial;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+    .cardGreen{
+        border-top: 5px solid #44D3D2;
+        position: initial;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+    .cardYellow{
+        border-top: 5px solid #FCAE4A;
+    }
+}
